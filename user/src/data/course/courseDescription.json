@@ -1,0 +1,94 @@
+[
+  {
+  "id": "course-1",
+  "heading": "BACHELOR OF SCIENCE IN NURSING (B.SC. NURSING)",
+  "authorProfile": "author.jpg",
+  "authorName": "Andy Robert",
+  "category": "Health Sciences",
+  "rating": 4.5,
+  "price": "$29.00",
+  "banner": "bsc_nursing.jpg",
+  "overview": {
+    "courseDesc": "The Bachelor of Science in Nursing (B.Sc. Nursing) is an esteemed four-year undergraduate program meticulously crafted to cultivate proficient and compassionate healthcare professionals. This program adheres to the rigorous standards established by the Indian Nursing Council (INC) and aims to equip students with the requisite knowledge, clinical expertise, and ethical framework essential for exemplary nursing practice in diverse healthcare settings. The curriculum seamlessly integrates theoretical instruction with hands-on clinical exposure, fostering holistic development in both cognitive and psychomotor domains.",
+    "courseFeature": "Curriculum aligned with Indian Nursing Council (INC) standards. Blend of theoretical knowledge and clinical experience.",
+    "featureList": [
+      "Adheres to INC standards",
+      "Hands-on clinical training",
+      "Holistic professional development",
+      "Taught by experienced faculty"
+    ],
+    "courseLearn": "Graduates will be equipped with clinical, ethical, and leadership skills essential in the nursing field.",
+    "learnList": [
+      "Professional nursing skills",
+      "Clinical decision-making",
+      "Communication and ethics",
+      "Holistic patient care"
+    ],
+    "eligibilityCriteria": [
+      "Minimum age of 17 years at the time of admission.",
+      "Passed 10+2 with core subjects: Physics, Chemistry, Biology, and English.",
+      "Medically fit.",
+      "Candidates from National Institute of Open School must have 45% marks.",
+      "Admissions allowed once per year.",
+      "Only unmarried girls are eligible.",
+      "Must be free from physical or mental disability. Concealed prior illness may lead to discharge."
+    ],
+    "courseShare": true
+  }
+}
+
+,
+  {
+  "id": "course-2",
+  "heading": "BACHELOR OF SCIENCE IN NURSING (B.SC. NURSING)",
+  "authorProfile": "author.jpg",
+  "authorName": "Andy Robert",
+  "category": "Health Sciences",
+  "rating": 4.5,
+  "price": "$29.00",
+  "banner": "bsc_nursing.jpg",
+  "overview": {
+    "courseDesc": "The Bachelor of Science in Nursing (B.Sc. Nursing) is an esteemed four-year undergraduate program meticulously crafted to cultivate proficient and compassionate healthcare professionals. .",
+    "courseFeature": "Curriculum aligned with Indian Nursing Council (INC) standards. Blend of theoretical knowledge and clinical experience.",
+    "featureList": [
+      "Adheres to INC standards",
+      "Hands-on clinical training",
+      
+      "Taught by experienced faculty"
+    ],
+    "courseLearn": "Graduates will be equipped with clinical, ethical, and leadership skills essential in the nursing field.",
+    "learnList": [
+      "Professional nursing skills",
+      "Clinical decision-making",
+     
+      "Holistic patient care"
+    ],
+    "eligibilityCriteria": [
+      "Minimum age of 17 years at the time of admission.",
+      "Passed 10+2 with core subjects: Physics, Chemistry, Biology, and English.",
+      "Medically fit.",
+      "Candidates from National Institute of Open School must have 45% marks.",
+      "Must be free from physical or mental disability. Concealed prior illness may lead to discharge."
+    ],
+    "courseShare": true
+  }
+},
+  {
+    "id": "course-3",
+    "heading": "Digital Marketing Mastery",
+    "authorProfile": "author.jpg",
+    "authorName": "Kim Chang",
+    "category": "Marketing",
+    "rating": 4.8,
+    "price": "$19.00",
+    "banner": "digital-marketing.jpg",
+    "overview": {
+      "courseDesc": "Learn how to run successful digital marketing campaigns.",
+      "courseFeature": "SEO, email, social media, PPC.",
+      "featureList": ["SEO", "Google Ads", "Email Marketing", "Analytics"],
+      "courseLearn": "Full-stack digital marketer skills.",
+      "learnList": ["Audience Targeting", "Strategy", "Tools", "Campaign Planning"],
+      "courseShare": true
+    }
+  }
+]

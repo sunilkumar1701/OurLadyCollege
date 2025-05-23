@@ -1,12 +1,12 @@
 [
     {
         "id": "1",
-        "imgUrl": "course-1.jpg",
+        "imgUrl": "bsc_nursing.jpg",
         "authorImg": "author.jpg",
         "authorName": "John Doe",
         "authorCourses": "13 Courses",
         "price": "$20",
-        "courseTitle": "Php & mySql Programming",
+        "courseTitle": "Phpsss & mySql Programming",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
