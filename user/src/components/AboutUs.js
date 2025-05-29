@@ -29,7 +29,7 @@ class AboutUs extends Component {
                             <Col md="6">
                                 <div className="about-image">
                                     <img src={process.env.PUBLIC_URL + `/assets/images/${Datas.mainImage}`} className="main-img" alt="" />
-                                    <img src={process.env.PUBLIC_URL + "/assets/images/pattern.png"} className="pattern-img" alt="" />
+                                    {/* <img src={process.env.PUBLIC_URL + "/assets/images/pattern.png"} className="pattern-img" alt="" /> */}
                                     <div className="video-player" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.videoBackground})`}}>
                                         <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='uXFUl0KcIkA' onClose={() => this.setState({ isOpen: false })} />
                                         <button onClick={this.openModal} className="play-button"><i className="las la-play"></i></button>

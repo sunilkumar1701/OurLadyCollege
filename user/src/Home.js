@@ -4,7 +4,6 @@ import IconBox from './components/IconBox';
 import AboutUs from './components/AboutUs';
 import TestimonialSlider from './components/Home/components/TestimonialSlider';
 import TeamSlider from './components/Home/components/TeamSlider';
-import HelpArea from './components/Home/components/HelpArea';
 import HomeBlog from './components/Home/components/HomeBlog';
 import CampusTour from './components/Home/components/CampusTour';
 import NewsletterForm from './components/Home/components/NewsletterForm';
@@ -35,10 +34,7 @@ export default class Home extends Component {
                 < TestimonialSlider />
 
                 {/* Team Slider */}
-                < TeamSlider />
-
-                {/* Help Area */}
-                < HelpArea />       
+                < TeamSlider />      
 
                 {/* Campus Tour */}
                 < CampusTour />

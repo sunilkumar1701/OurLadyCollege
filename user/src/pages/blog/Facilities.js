@@ -20,7 +20,7 @@ class Facilities extends Component {
                     <HeaderTwo />
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Blog Grid" />
+                    <BreadcrumbBox title="Facilities" />
 
                     {/* Blog Classic */}
                     <section className="blog-grid-area">
@@ -37,20 +37,20 @@ class Facilities extends Component {
                                                         </div>
                                                         <div className="blog-content">
                                                             <div className="blog-auth_date d-flex">
-                                                                <div className="author-img d-flex">
+                                                                {/* <div className="author-img d-flex">
                                                                     <Link to={process.env.PUBLIC_URL + data.authorLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" /></Link>
                                                                     <p><Link to={process.env.PUBLIC_URL + data.authorLink}>{data.authorName}</Link></p>
-                                                                </div>
-                                                                <div className="post-date">
+                                                                </div> */}
+                                                                {/* <div className="post-date">
                                                                     <p><i className="las la-calendar"></i> {data.postDate}</p>
-                                                                </div>
+                                                                </div> */}
                                                             </div>
                                                             <div className="blog-title">
                                                                 <h6><Link to={process.env.PUBLIC_URL + data.postLink}>{data.postTitle}</Link></h6>
                                                             </div>
-                                                            <div className="blog-desc">
+                                                            {/* <div className="blog-desc">
                                                                 <p>{data.postDesc}</p>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
 
                                                     </div>

@@ -52,7 +52,7 @@ class Footer extends Component {
                                         </div>
                                         <div className="post-content">
                                             <Link to={process.env.PUBLIC_URL +"/blog-details"}>Lorem ipsum dolor sit amet consectet adipisicing elit com...</Link>
-                                            <span>Mar 30, 2020</span>
+                                            <span>Mar 30, 2024</span>
                                         </div>
                                     </div>
                                     <div className="post-box d-flex">
@@ -61,7 +61,7 @@ class Footer extends Component {
                                         </div>
                                         <div className="post-content">
                                             <Link to={process.env.PUBLIC_URL +"/blog-details"}>Lorem ipsum dolor sit amet consectet adipisicing elit com...</Link>
-                                            <span>Mar 30, 2020</span>
+                                            <span>Mar 30, 2024</span>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ class Footer extends Component {
                         <Row>
                             <Col md="6">
                                 <div className="copy-text">
-                                    <p>Copyright &copy; 2020 | Designed With <i className="las la-heart"></i> by <a href={process.env.PUBLIC_URL + "/"} target="_blank" rel="noopener noreferrer">SnazzyTheme</a></p>
+                                    <p>Copyright &copy; 2025 | Designed With <i className="las la-heart"></i> by <a href={process.env.PUBLIC_URL + "/"} target="_blank" rel="noopener noreferrer">Dindigul Mugavari</a></p>
                                 </div>
                             </Col>
                             <Col md="6" className="text-right">

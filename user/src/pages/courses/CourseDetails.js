@@ -61,41 +61,21 @@ function CourseDetails(props) {
                   <div className="course-top-overview">
                     <div className="d-flex overviews">
                       <div className="author">
-                        <img
+                        {/* <img
                           src={`${process.env.PUBLIC_URL}/assets/images/${course.authorProfile}`}
                           alt=""
-                        />
+                        /> */}
                         <div className="author-name">
                           <h6>Author</h6>
                           <p>{course.authorName}</p>
                         </div>
                       </div>
                       <div className="category">
-                        <h6>Category</h6>
-                        <p>{course.category}</p>
+                        <h6>Durations</h6>
+                        {/* <p>{course.category}</p> */}
+                        <p>3 Years</p>
                       </div>
-                      <div className="rating">
-                        <h6>Rating</h6>
-                        <ul className="list-unstyled list-inline">
-                          {[...Array(Math.floor(course.rating))].map((_, i) => (
-                            <li key={i} className="list-inline-item">
-                              <i className="las la-star"></i>
-                            </li>
-                          ))}
-                          {course.rating % 1 !== 0 && (
-                            <li className="list-inline-item">
-                              <i className="las la-star-half-alt"></i>
-                            </li>
-                          )}
-                          <li className="list-inline-item">
-                            ({course.rating})
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="price">
-                        <h6>Price</h6>
-                        <p>{course.price}</p>
-                      </div>
+    
                     </div>
                   </div>
                   <div className="course-details-banner">
