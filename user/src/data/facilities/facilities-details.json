@@ -1,0 +1,23 @@
+[
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Nursing Skill labs",
+    "courseDesc": "Four year undergraduate program meticulously crafted...",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Nursing Skill labs",
+    "courseDesc": "Four year undergraduate program meticulously crafted...",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-2",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Nursing Skill labs",
+    "courseDesc": "Four year undergraduate program meticulously crafted...",
+    "courseLink": "/course-details/course-1"
+  }
+]
