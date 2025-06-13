@@ -1,3 +1,5 @@
+// FILE: src/pages/blog/Facilities.js
+
 import React, { Component } from 'react';
 import Datas from '../../data/facilities/facilities.json';
 import { Link } from 'react-router-dom';
@@ -9,20 +11,12 @@ import FooterTwo from '../../components/FooterTwo.js';
 import { Styles } from './styles/facilities.js';
 
 class Facilities extends Component {
-
     render() {
         return (
             <Styles>
-                {/* Main Wrapper */}
                 <div className="main-wrapper blog-grid-page">
-
-                    {/* Header 2 */}
                     <HeaderTwo />
-
-                    {/* Breadcroumb */}
                     <BreadcrumbBox title="Facilities" />
-
-                    {/* Blog Classic */}
                     <section className="blog-grid-area">
                         <Container>
                             <Row>
@@ -33,32 +27,20 @@ class Facilities extends Component {
                                                 <Col lg="4" md="6" sm="12" key={i}>
                                                     <div className="blog-item">
                                                         <div className="blog-img">
-                                                            <Link to={process.env.PUBLIC_URL + data.postLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.postImg}`} alt="" className="img-fluid" /></Link>
+                                                            <Link to={data.postLink}>
+                                                                <img src={process.env.PUBLIC_URL + `/assets/images/${data.postImg}`} alt="" className="img-fluid" />
+                                                            </Link>
                                                         </div>
                                                         <div className="blog-content">
-                                                            <div className="blog-auth_date d-flex">
-                                                                {/* <div className="author-img d-flex">
-                                                                    <Link to={process.env.PUBLIC_URL + data.authorLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" /></Link>
-                                                                    <p><Link to={process.env.PUBLIC_URL + data.authorLink}>{data.authorName}</Link></p>
-                                                                </div> */}
-                                                                {/* <div className="post-date">
-                                                                    <p><i className="las la-calendar"></i> {data.postDate}</p>
-                                                                </div> */}
-                                                            </div>
                                                             <div className="blog-title">
-                                                                <h6><Link to={process.env.PUBLIC_URL + data.postLink}>{data.postTitle}</Link></h6>
+                                                                <h6><Link to={data.postLink}>{data.postTitle}</Link></h6>
                                                             </div>
-                                                            {/* <div className="blog-desc">
-                                                                <p>{data.postDesc}</p>
-                                                            </div> */}
                                                         </div>
-
                                                     </div>
                                                 </Col>
                                             ))
                                         }
                                     </Row>
-
                                     <div className="text-center">
                                         <Pagination />
                                     </div>
@@ -66,14 +48,11 @@ class Facilities extends Component {
                             </Row>
                         </Container>
                     </section>
-
-                    {/* Footer 2 */}
                     <FooterTwo />
-
                 </div>
             </Styles>
-        )
+        );
     }
 }
 
-export default Facilities
+export default Facilities;

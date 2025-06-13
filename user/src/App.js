@@ -41,7 +41,6 @@ function App() {
           path={`${process.env.PUBLIC_URL}/course-details/:id`}
           render={(props) => <CourseDetails {...props} />}
         />
-
         <Route
           path={`${process.env.PUBLIC_URL + "/instructor-details"}`}
           component={InstructorDetails}
@@ -51,8 +50,8 @@ function App() {
           component={Facilities}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/facilities-details"}`}
-          component={FacilitiesDetails}
+          path={`${process.env.PUBLIC_URL + "/facilities-details/:id"}`}
+          render={(props) => <FacilitiesDetails {...props} />}
         />
         <Route
           path={`${process.env.PUBLIC_URL + "/hospital"}`}
@@ -82,7 +81,10 @@ function App() {
           path={`${process.env.PUBLIC_URL + "/contact"}`}
           component={Contact}
         />
-        <Route path={`${process.env.PUBLIC_URL + "/faq"}`} component={Faq} />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/faq"}`}
+          component={Faq}
+        />
       </Switch>
     </Router>
   );

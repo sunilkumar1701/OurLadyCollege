@@ -1,23 +1,31 @@
 [
-    {
-        "id": "facilities-1",
-        "postImg": "blog_c-02.jpg",
-        "authorImg": "author.jpg",
-        "postLink": "/facilities-details",
-        "postTitle": "Labs"
-    },
-    {
-        "id": "facilities-2",
-        "postImg": "blog_c-02.jpg",
-        "authorImg": "author.jpg",
-        "postLink": "/facilities-details",
-        "postTitle": "Class rooms and Lecture Halls."
-    },
-    {
-        "id": "facilities-3",
-        "postImg": "blog_c-02.jpg",
-        "authorImg": "author.jpg",
-        "postLink": "/facilities-details",
-        "postTitle": "Hostels"
+  {
+    "id": "facilities-1",
+    "postImg": "blog_c-02.jpg",
+    "postLink": "/facilities-details/facilities-1",
+    "postTitle": "PHYSICAL FACILITIES FOR B.SC. NURSING PROGRAM",
+    "description": {
+      "paragraph": "To provide a comprehensive and enriching educational experience, our institution isequipped with latest physical facilities that align with the requirements set by the Indian Nursing Council (INC). These facilities support both theoretical learning and clinical practice, ensuring that our nursing students receive a well-rounded education. Below is a detailed description of the key facilities provided for the B.Sc. Nursing program.",
+      "points": [
+        "Admission: As per INC Norms.",
+        "Method of Selection: Management & Government.",
+        "Health Care Apostolate has been one of the Constitutive elements of the basic thrust and charism of the Society.",
+        "Annual intake is 60 students.( Management 21 students, Government 39 students)."
+      ]
     }
+  },
+  {
+    "id": "facilities-2",
+    "postImg": "blog_c-02.jpg",
+    "postLink": "/facilities-details/facilities-2",
+    "postTitle": "HOSTEL FACILITIES",
+    "description": {
+      "paragraph": "The hostels are designed to provide a safe, comfortable and encouraging environment for students to study and grow.",
+      "points": [
+        "Separate hostels for boys and girls with security.",
+        "Wi-Fi enabled study rooms and leisure lounges.",
+        "Nutritious meals served in a hygienic mess."
+      ]
+    }
+  }
 ]

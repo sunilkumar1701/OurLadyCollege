@@ -5,6 +5,7 @@ export const Styles = styled.div`
   .blog-details-page {
     .blog-details-area {
       padding: 70px 0;
+
       .blog-details-box {
         .blog-details-banner {
           img {
@@ -28,8 +29,10 @@ export const Styles = styled.div`
 
         .blog-auth_date {
           margin-bottom: 15px;
+
           .author-img {
             margin-right: 20px;
+
             a {
               img {
                 max-width: 40px;
@@ -38,11 +41,13 @@ export const Styles = styled.div`
                 margin-top: -9px;
               }
             }
+
             p {
               a {
                 font-size: 14px;
                 color: ${colors.green};
                 font-weight: 500;
+
                 &:hover {
                   color: ${colors.black1};
                 }
@@ -54,10 +59,12 @@ export const Styles = styled.div`
           .post-category,
           .post-comment {
             margin-right: 20px;
+
             p {
               font-size: 14px;
               color: ${colors.text2};
               font-weight: 500;
+
               i {
                 font-size: 20px;
                 color: ${colors.green};
@@ -68,6 +75,7 @@ export const Styles = styled.div`
                 font-size: 14px;
                 color: ${colors.text2};
                 font-weight: 500;
+
                 &:hover {
                   color: ${colors.green};
                 }
@@ -89,10 +97,12 @@ export const Styles = styled.div`
 
         .blog-details-desc {
           margin-bottom: 45px;
+
           p {
             font-size: 15px;
             color: ${colors.text2};
             line-height: 25px;
+
             span {
               background: ${colors.border1};
               color: ${colors.black2};
@@ -101,6 +111,7 @@ export const Styles = styled.div`
               padding: 22px 28px;
               border-radius: 5px;
               position: relative;
+
               i {
                 position: absolute;
                 top: -20px;
@@ -117,25 +128,32 @@ export const Styles = styled.div`
               }
             }
           }
+
           ul {
             margin-top: 30px;
+
             li {
+              display: flex;
+              align-items: flex-start;
+              gap: 15px;
               font-size: 14px;
               color: ${colors.text3};
               line-height: 25px;
               margin-bottom: 15px;
+
               i {
-                float: left;
+                flex-shrink: 0;
                 color: ${colors.green};
                 border: 1px solid ${colors.border3};
                 width: 35px;
                 height: 35px;
                 border-radius: 50%;
                 text-align: center;
-                padding-top: 9px;
-                margin-top: 8px;
-                margin-right: 15px;
+                line-height: 35px;
+                font-size: 16px;
+                margin-top: 0;
               }
+
               &:last-child {
                 margin-bottom: 0;
               }
@@ -145,17 +163,21 @@ export const Styles = styled.div`
 
         .blog-tag_share {
           margin-bottom: 45px;
+
           .blog-tag {
             ul.tags {
               li {
                 color: ${colors.text3};
+
                 a {
                   font-size: 14px;
                   color: ${colors.text2};
+
                   &:hover {
                     color: ${colors.green};
                   }
                 }
+
                 &:first-child {
                   font-size: 15px;
                   color: ${colors.black1};
@@ -168,6 +190,7 @@ export const Styles = styled.div`
               margin-bottom: 20px;
             }
           }
+
           .blog-share {
             ul.social {
               li {
@@ -313,130 +336,127 @@ export const Styles = styled.div`
           }
         }
 
-        /* New styles added for blog-details-other-labs */
         .blog-details-other-labs {
           margin-top: 50px;
 
           .course-item {
-                border-radius : 5px;
-                transition : all 0.2s ease;
-                overflow : hidden;
-                box-shadow: 0 8px 20px 5px rgba(0,0,0,0.07);
-                margin-bottom: 30px;
+            border-radius: 5px;
+            transition: all 0.2s ease;
+            overflow: hidden;
+            box-shadow: 0 8px 20px 5px rgba(0, 0, 0, 0.07);
+            margin-bottom: 30px;
 
-                .course-image-box {
-                    .course-image {
-                        width              : 290px;
-                        height             : 230px;
-                        flex: 0 0 290px;
-                        background-size    : cover;
-                        background-position: center;
-                        background-repeat  : no-repeat;
-                        border-radius : 5px 5px 0 0;
-                        position: relative;
+            .course-image-box {
+              .course-image {
+                width: 290px;
+                height: 230px;
+                flex: 0 0 290px;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                border-radius: 5px 5px 0 0;
+                position: relative;
 
-                        .author-img {
-                            position: absolute;
-                            left    : 20px;
-                            top  : 20px;
+                .author-img {
+                  position: absolute;
+                  left: 20px;
+                  top: 20px;
 
-                            img {
-                                max-width: 40px;
-                                border-radius : 50%;
-                                margin-right: 5px;
-                            }
+                  img {
+                    max-width: 40px;
+                    border-radius: 50%;
+                    margin-right: 5px;
+                  }
 
-                            .title {
-                                background: #ffffff;
-                                padding   : 3px 8px;
-                                border-radius : 5px;
+                  .title {
+                    background: #ffffff;
+                    padding: 3px 8px;
+                    border-radius: 5px;
 
-                                p {
-                                    font-size    : 12px;
-                                    color        : ${colors.black1};
-                                    font-weight  : 500;
-                                    margin-bottom: -4px;
-                                }
-
-                                span {
-                                    font-size  : 11px;
-                                    color      : ${colors.text3};
-                                    font-weight: 500;
-                                }
-                            }
-
-                            @media(max-width: 991px) {
-                                top  : unset;
-                                bottom : 20px;
-                            }
-                        }
-
-
-                        @media(max-width: 991px) {
-                            width: 100%;
-                        }
-                    }
-                }
-
-                .course-content {
-                    background: #fff;
-                    padding   : 20px 25px;
-
-                    h6.heading {
-                        padding-bottom: 12px;
-                        margin-bottom: 20px;
-                        position: relative;
-                        &:before {
-                            position: absolute;
-                            content: "";
-                            background: ${colors.green};
-                            width: 50px;
-                            height: 2px;
-                            bottom: 0;
-                            left: 0;
-                        }
-
-                        a {
-                            color        : ${colors.black1};
-                            font-weight  : 600;
-                            display      : inline-block;
-
-                            &:hover {
-                                color: ${colors.green};
-                            }
-                        }
+                    p {
+                      font-size: 12px;
+                      color: ${colors.black1};
+                      font-weight: 500;
+                      margin-bottom: -4px;
                     }
 
-
-                    p.desc {
-                        font-size     : 14px;
-                        color         : ${colors.text3};
-                        line-height   : 25px;
-                        margin-bottom : 15px;
-                        white-space: normal; /* prevent nowrap */
-                        overflow-wrap: break-word; /* break long words */
-                        word-wrap: break-word; /* fallback */
+                    span {
+                      font-size: 11px;
+                      color: ${colors.text3};
+                      font-weight: 500;
                     }
+                  }
 
-                   
+                  @media (max-width: 991px) {
+                    top: unset;
+                    bottom: 20px;
+                  }
                 }
 
-                &:hover {
-                    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+                @media (max-width: 991px) {
+                  width: 100%;
                 }
-
-                @media(max-width: 991px) {
-                    display : block !important;
-                }
+              }
             }
-      }
 
-      @media (max-width: 767px) {
-        padding: 35px 0;
-      }
+            .course-content {
+              background: #fff;
+              padding: 20px 25px;
 
-      @media (max-width: 575px) {
-        padding-bottom: 0;
+              h6.heading {
+                padding-bottom: 12px;
+                margin-bottom: 20px;
+                position: relative;
+
+                &:before {
+                  position: absolute;
+                  content: "";
+                  background: ${colors.green};
+                  width: 50px;
+                  height: 2px;
+                  bottom: 0;
+                  left: 0;
+                }
+
+                a {
+                  color: ${colors.black1};
+                  font-weight: 600;
+                  display: inline-block;
+
+                  &:hover {
+                    color: ${colors.green};
+                  }
+                }
+              }
+
+              p.desc {
+                font-size: 14px;
+                color: ${colors.text3};
+                line-height: 25px;
+                margin-bottom: 15px;
+                white-space: normal;
+                overflow-wrap: break-word;
+                word-wrap: break-word;
+              }
+            }
+
+            &:hover {
+              box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+            }
+
+            @media (max-width: 991px) {
+              display: block !important;
+            }
+          }
+        }
+
+        @media (max-width: 767px) {
+          padding: 35px 0;
+        }
+
+        @media (max-width: 575px) {
+          padding-bottom: 0;
+        }
       }
     }
   }

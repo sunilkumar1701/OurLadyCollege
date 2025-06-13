@@ -1,0 +1,30 @@
+[
+  {
+    "id": "course-1",
+    "achievements": [
+      {
+        "image": "instructor-1.jpg",
+        "name": "Mark Shadow",
+        "title": "Senior Lecturer",
+        "description": "Led national healthcare conferences and published 15+ research papers."
+      },
+      {
+        "image": "instructor-2.jpg",
+        "name": "Katrin Kay",
+        "title": "Clinical Coordinator",
+        "description": "Trained 200+ nurses and awarded Best Educator 2021."
+      }
+    ]
+  },
+  {
+    "id": "course-3",
+    "achievements": [
+      {
+        "image": "instructor-3.jpg",
+        "name": "David Show",
+        "title": "Marketing Strategist",
+        "description": "Developed successful campaigns for Fortune 500 companies."
+      }
+    ]
+  }
+]

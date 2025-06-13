@@ -2,22 +2,148 @@
   {
     "id": "facilities-1",
     "imgUrl": "author.jpg",
-    "courseTitle": "Nursing Skill labs",
-    "courseDesc": "Four year undergraduate program meticulously crafted...",
+    "courseTitle": "Classroom and Lecture Halls",
+    "courseDesc": "Spacious and Well-Equipped Classrooms: The institution boasts modern, spacious classrooms designed for interactive learning. Equipped with audiovisual aids, projectors, and whiteboards, these classrooms create an ideal environment for delivering lectures, conducting seminars, and engaging in collaborative learning activities.",
     "courseLink": "/course-details/course-1"
   },
   {
     "id": "facilities-1",
     "imgUrl": "author.jpg",
-    "courseTitle": "Nursing Skill labs",
-    "courseDesc": "Four year undergraduate program meticulously crafted...",
+    "courseTitle": "Nursing Skills Laboratory",
+    "courseDesc": "Simulation and Skills Labs: The Nursing Skills Laboratory allows students to hone their practical skills such as wound care, medication administration, IV therapy, and patient assessment in a controlled environment. This lab is equipped with the medical mannequins, enabling students to practice procedures before engaging in real-life patient care.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Maternity and Child Health Nursing Labs",
+    "courseDesc": "Maternity Lab provides students with the opportunity to learn and practice obstetric and gynecological nursing techniques. The lab is equipped with laboratory models, simulated birthing mannequins, and maternal care equipment, allowing students to gain hands-on experience in antenatal care, childbirth, and postpartum care.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": " Anatomy and Physiology Laboratory",
+    "courseDesc": "Our Anatomy and Physiology Laboratories are equipped with high-quality anatomical models, skeletons, and dissection specimens to provide an in-depth understanding of human anatomy and bodily functions. Students will also have access to interactive software and digital tools for exploring the human body and understanding complex physiological processes.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Microbiology Laboratory",
+    "courseDesc": "The Microbiology Laboratory is well-equipped with microscopes, petri dishes, bacterial cultures, and sterilization equipment. Students will learn about pathogens, infection control, and diagnostic procedures, gaining hands-on experience in microbial analysis and infection prevention techniques.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Pre-Clinical Lab",
+    "courseDesc": "Integrated Pre-Clinical Labs: The Pre-Clinical Lab is a specialized area where students receive initial exposure to practical skills. It combines various essential laboratories, including Anatomy, Physiology, and Microbiology, to facilitate an interdisciplinary approach to understanding human health. Students practice core skills, including basic patient care, vital signs monitoring, and laboratory tests, before engaging in more complex clinical settings.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Nutrition Lab",
+    "courseDesc": "Well-Equipped Nutrition Lab: The Nutrition Lab is designed for students to learn the principles of nutritional assessment, diet planning, and food preparation. The lab is equipped with kitchen appliances, food charts, and nutritional software that allow students to practice creating therapeutic diets for patients with different medical conditions, such as diabetes and cardiovascular diseases.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Library and Information Resources",
+    "courseDesc": "Comprehensive Library: Our well-established library houses a vast collection of nursing textbooks, research journals, medical references, and e-books to support academic learning and research. The library also provides access to a wide range of digital resources such as electronic journals and nursing literature to ensure students have access to the most current knowledge in the field of nursing.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "E-Learning ",
+    "courseDesc": "The institution provides access to online portals with nursing-specific content such as electronic textbooks, e-journals, and interactive simulations that complement the theoretical knowledge gained in the classroom.Digital Learning Platforms: In addition to traditional resources, students have access to online learning platforms that offer e-learning modules, simulations, and educational videos to enhance their understanding of nursing concepts.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Audio-Visual Laboratory",
+    "courseDesc": "The Audio-Visual Lab is equipped with with multimedia educational materials, including nursing demonstrations, healthcare seminars, and clinical training videos, which enhance the learning experience by offering practical insights into real-world nursing scenarios.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Computer Lab and ICT Infrastructure",
+    "courseDesc": "Technology-Integrated Learning: The Computer Lab is equipped with high-speed internet and the latest computers to support research, data analysis, and online learning. Students also have access to various nursing software and simulation programs designed to improve their clinical decision-making and diagnostic skills.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": " OSCE (Objective Structured Clinical Examination) Lab",
+    "courseDesc": "Our institution features an OSCE Lab to support objective assessment of clinical skills. The lab includes multiple stations that simulate real clinical scenarios such as patient assessments and medical procedures. Students practice and are evaluated using mannequins, clinical tools, and observation rooms. This setup helps assess technical skills, communication, and critical thinking in a realistic, controlled environment.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Exam Hall with Sequel Room and Paper Valuation Room",
+    "courseDesc": "The institution provides well-equipped, spacious exam halls that are designed to accommodate large numbers of students during both theory exams and practical assessments. These exam halls are equipped with adequate ventilation, lighting, and seating arrangements to ensure a comfortable and conducive environment for students during their examinations. Well established Sequel room is attached with the exam hall for downloading the online question papers for University exams.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-1",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Paper Valuation Room",
+    "courseDesc": "Our institution maintains a dedicated Paper Valuation Room where examination papers are meticulously reviewed and evaluated by faculty members. The room is equipped with comfortable seating, appropriate lighting, and all necessary resources for a thorough evaluation process. This ensures that assessments are done with precision and fairness, upholding the highest standards of academic integrity.",
     "courseLink": "/course-details/course-1"
   },
   {
     "id": "facilities-2",
     "imgUrl": "author.jpg",
-    "courseTitle": "Nursing Skill labs",
-    "courseDesc": "Four year undergraduate program meticulously crafted...",
+    "courseTitle": "On-Campus Accommodation",
+    "courseDesc": "Our institution provides well-established hostel facilities designed to ensure a safe, comfortable and conducive living environment for students, especially for those from out of town. The hostels are equipped with furnishings, Wi-Fi, study areas, and recreational spaces to support students in their academic journey.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-2",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Hostel Blocks",
+    "courseDesc": "Accommodation is provided for students ensuring privacy, safety, and comfort. Each hostel block is equipped with modern amenities to create a homely atmosphere for students. The hostels also have 24/7 security, medical assistance, and laundry facilities for students' convenience.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-2",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Common Areas and Recreational Facilities",
+    "courseDesc": "The hostel has common rooms with TVs, board games, and reading areas, where students can relax and engage in recreational activities after a day of rigorous academic work.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-2",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Nutritious and Hygienic Meals",
+    "courseDesc": "The hostel provides balanced meals prepared in line with health standards. Students are offered a variety of vegetarian and non-vegetarian meal options, ensuring that they receive nutritious and wholesome food.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-2",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Counseling and Support Services",
+    "courseDesc": "The institution offers counseling and mental health support services to help students manage stress and maintain a healthy balance between their academic and personal lives while staying in the hostel.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-2",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Sports and Recreational Facilities",
+    "courseDesc": "Our campus features well-maintained outdoor sports courts and recreational areas to encourage students to maintain physical fitness. The institution promotes wellness programs and organizes various sports activities to support the overall development of nursing students.",
+    "courseLink": "/course-details/course-1"
+  },
+  {
+    "id": "facilities-2",
+    "imgUrl": "author.jpg",
+    "courseTitle": "Cafeteria and Dining Facilities",
+    "courseDesc": "The campus cafeteria serves nutritious, hygienic, and well-balanced meals, catering to the diverse dietary needs of students. The cafeteria provides both vegetarian and non-vegetarian options to ensure students maintain optimal health during their rigorous academic and clinical training.",
     "courseLink": "/course-details/course-1"
   }
 ]
