@@ -1,3 +1,4 @@
+// Home.js
 import React, { Component } from 'react';
 import HeroSlider from './components/Home/components/HeroSlider';
 import IconBox from './components/IconBox';
@@ -10,42 +11,46 @@ import NewsletterForm from './components/Home/components/NewsletterForm';
 import Footer from './components/Footer';
 import HeaderTwo from './components/common/Header';
 
+
 export default class Home extends Component {
     render() {
         return (
-            <div className="main-wrapper" >
+            <div className="main-wrapper">
+                
 
                 {/* Header */}
                 <HeaderTwo />
 
                 {/* Hero Slider */}
-                < HeroSlider />
+                <HeroSlider />
+
+                
 
                 {/* Icon Box */}
-                < IconBox />
+                <IconBox />
 
                 {/* About Area */}
-                < AboutUs />
+                <AboutUs />
 
                 {/* Blog Area */}
-                < HomeBlog />
+                <HomeBlog />
 
                 {/* Testimonial Slider */}
-                < TestimonialSlider />
+                <TestimonialSlider />
 
                 {/* Team Slider */}
-                < TeamSlider />      
+                <TeamSlider />
 
                 {/* Campus Tour */}
-                < CampusTour />
+                <CampusTour />
 
                 {/* Newsletter Form */}
-                < NewsletterForm />
+                <NewsletterForm />
 
                 {/* Footer */}
-                < Footer />
+                <Footer />
 
             </div>
-        )
+        );
     }
 }
