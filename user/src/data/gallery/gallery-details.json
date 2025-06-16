@@ -1,0 +1,28 @@
+[
+  {
+    "id": "annual-day",
+    "title": "Annual Day Celebration",
+    "images": [
+      "annual-1.jpg",
+      "annual-2.jpg",
+      "annual-3.jpg"
+    ]
+  },
+  {
+    "id": "science-expo",
+    "title": "Science Expo 2024",
+    "images": [
+      "expo-1.jpg",
+      "expo-2.jpg",
+      "expo-3.jpg"
+    ]
+  },
+  {
+    "id": "cultural-fest",
+    "title": "Cultural Fest Night",
+    "images": [
+      "cultural-1.jpg",
+      "cultural-2.jpg"
+    ]
+  }
+]

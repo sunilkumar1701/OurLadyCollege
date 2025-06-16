@@ -210,7 +210,7 @@ function CourseDetails(props) {
                                   faculty.map((data, i) => (
                                     <Col lg="3" md="4" sm="6" xs="12" key={i}>
                                       <div className="instructor-item">
-                                        <Link to="/instructor-details">
+                                        <Link to={`/instructor-details/instructor-${i + 1}`}>
                                           <img
                                             src={`${process.env.PUBLIC_URL}/assets/images/${data.personImage}`}
                                             alt=""
@@ -219,7 +219,7 @@ function CourseDetails(props) {
                                         </Link>
                                         <div className="img-content text-center">
                                           <h5>
-                                            <Link to="/instructor-details">
+                                            <Link to={`/instructor-details/instructor-${i + 1}`}>
                                               {data.personName}
                                             </Link>
                                           </h5>

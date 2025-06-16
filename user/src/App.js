@@ -1,90 +1,65 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import ScrollToTop from "./helper/ScrollToTop";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+// Global Styles & Helpers
 import { GlobalStyle } from "./components/common/styles/global.js";
-import Home from "./Home.js";
-import Hospital from "./pages/hospital/Hospital.js";
+import ScrollToTop from "./helper/ScrollToTop";
+
+// Pages
+import Home from "./Home";
 import About from "./pages/about/About";
-import Course from "./pages/courses/CourseGrid.js";
+import Course from "./pages/courses/CourseGrid";
 import CourseDetails from "./pages/courses/CourseDetails";
 import InstructorDetails from "./pages/instructor/InstructorDetails";
+import Facilities from "./pages/blog/Facilities";
+import FacilitiesDetails from "./pages/blog/FacilitiesDetails";
+import Hospital from "./pages/hospital/Hospital";
 import Gallery from "./pages/gallery/Gallery";
+import GalleryDetails from "./pages/gallery/GalleryDetails";
 import Events from "./pages/events/Events";
 import EventDetails from "./pages/events/EventsDetails";
 import Login from "./pages/account/Login";
 import Register from "./pages/account/Register";
 import Contact from "./pages/contact/Contact";
 import Faq from "./pages/faq/Faq";
-import Facilities from "./pages/blog/Facilities.js";
-import FacilitiesDetails from "./pages/blog/FacilitiesDetails.js";
 
 function App() {
+  const base = process.env.PUBLIC_URL;
+
   return (
     <Router>
       <GlobalStyle />
       <ScrollToTop />
       <Switch>
-        <Route
-          exact
-          path={`${process.env.PUBLIC_URL + "/"}`}
-          component={Home}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/about"}`}
-          component={About}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/course"}`}
-          component={Course}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL}/course-details/:id`}
-          render={(props) => <CourseDetails {...props} />}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/instructor-details"}`}
-          component={InstructorDetails}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/facilites"}`}
-          component={Facilities}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/facilities-details/:id"}`}
-          render={(props) => <FacilitiesDetails {...props} />}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/hospital"}`}
-          component={Hospital}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/gallery"}`}
-          component={Gallery}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/events"}`}
-          component={Events}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/event-details"}`}
-          component={EventDetails}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/login"}`}
-          component={Login}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/registration"}`}
-          component={Register}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/contact"}`}
-          component={Contact}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/faq"}`}
-          component={Faq}
-        />
+
+        {/* Home */}
+        <Route exact path={`${base}/`} component={Home} />
+
+        {/* Static Pages */}
+        <Route path={`${base}/about`} component={About} />
+        <Route path={`${base}/hospital`} component={Hospital} />
+        <Route path={`${base}/gallery`} component={Gallery} />
+        <Route path={`${base}/events`} component={Events} />
+        <Route path={`${base}/event-details`} component={EventDetails} />
+        <Route path={`${base}/login`} component={Login} />
+        <Route path={`${base}/registration`} component={Register} />
+        <Route path={`${base}/contact`} component={Contact} />
+        <Route path={`${base}/faq`} component={Faq} />
+
+        {/* Courses */}
+        <Route path={`${base}/courses`} component={Course} />
+        <Route path={`${base}/course-details/:id`} component={CourseDetails} />
+
+        {/* Instructors */}
+        <Route path={`${base}/instructor-details/:id`} component={InstructorDetails} />
+
+        {/* Facilities */}
+        <Route path={`${base}/facilities`} component={Facilities} />
+        <Route path={`${base}/facilities-details/:id`} component={FacilitiesDetails} />
+
+        {/* Gallery Details */}
+        <Route path={`${base}/gallery-details/:id`} component={GalleryDetails} />
+
       </Switch>
     </Router>
   );

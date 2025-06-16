@@ -1,0 +1,66 @@
+[
+  {
+    "id": "instructor-1",
+    "name": "Emily Perrey",
+    "title": "Professor of Nursing",
+    "image": "team-1.jpg",
+    "phone": "+1 (123) 456 7890",
+    "email": "emily@nursing.com",
+    "skype": "emily.perrey",
+    "social": {
+      "facebook": "https://facebook.com/emily",
+      "twitter": "https://twitter.com/emily",
+      "linkedin": "https://linkedin.com/in/emily",
+      "youtube": "https://youtube.com/emily"
+    },
+    "bio": "Emily is a professor with over 20 years of experience in Nursing...",
+    "qualifications": [
+      {
+        "school": "Harvard University",
+        "degree": "BSc in Nursing"
+      },
+      {
+        "school": "Stanford University",
+        "degree": "MSc in Advanced Nursing"
+      }
+    ],
+    "experience": [
+      {
+        "place": "Mayo Clinic",
+        "duration": "2015 - 2020"
+      },
+      {
+        "place": "Johns Hopkins",
+        "duration": "2020 - Present"
+      }
+    ]
+  },
+  {
+    "id": "instructor-2",
+    "name": "Justin Timbr",
+    "title": "Clinical Instructor",
+    "image": "team-2.jpg",
+    "phone": "+1 (987) 654 3210",
+    "email": "justin@med.edu",
+    "skype": "justin.timbr",
+    "social": {
+      "facebook": "https://facebook.com/justin",
+      "twitter": "https://twitter.com/justin",
+      "linkedin": "https://linkedin.com/in/justin",
+      "youtube": "https://youtube.com/justin"
+    },
+    "bio": "Justin is a passionate clinical instructor specializing in patient care...",
+    "qualifications": [
+      {
+        "school": "UCLA",
+        "degree": "BSc in Clinical Medicine"
+      }
+    ],
+    "experience": [
+      {
+        "place": "Mount Sinai",
+        "duration": "2018 - Present"
+      }
+    ]
+  }
+]

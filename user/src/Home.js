@@ -23,9 +23,7 @@ export default class Home extends Component {
 
                 {/* Hero Slider */}
                 <HeroSlider />
-
-                
-
+            
                 {/* Icon Box */}
                 <IconBox />
 

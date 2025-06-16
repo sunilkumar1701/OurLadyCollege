@@ -5,16 +5,25 @@ import { Styles } from "./styles/stickyMenu.js";
 
 function StickyMenu() {
     useEffect(() => {
-        window.addEventListener("scroll", () => {
-            const stickyMenu = document.querySelector(".sticky-menu");
-
+    const handleScroll = () => {
+        const stickyMenu = document.querySelector(".sticky-menu");
+        if (stickyMenu) {
             if (window.scrollY > 160) {
                 stickyMenu.classList.add("sticky");
             } else {
                 stickyMenu.classList.remove("sticky");
             }
-        });
-    });
+        }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener on unmount
+    return () => {
+        window.removeEventListener("scroll", handleScroll);
+    };
+}, []);
+
 
     return (
         <Styles>
@@ -37,10 +46,10 @@ function StickyMenu() {
                                         <Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>About Us </Link>
                                     </li>
                                     <li className="nav-item dropdown active">
-                                        <Link className="nav-link" to={process.env.PUBLIC_URL + "/course"}>Courses </Link>
+                                        <Link className="nav-link" to={process.env.PUBLIC_URL + "/courses"}>Courses </Link>
                                     </li>
                                     <li className="nav-item dropdown active">
-                                        <Link className="nav-link" to={process.env.PUBLIC_URL + "/facilites"}>Facilities</Link>
+                                        <Link className="nav-link" to={process.env.PUBLIC_URL + "/facilities"}>Facilities</Link>
                                     </li>
                                     <li className="nav-item dropdown active">
                                         <Link className="nav-link" to={process.env.PUBLIC_URL + "/hospital"}>Hospitals</Link>
