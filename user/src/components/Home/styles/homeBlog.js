@@ -40,7 +40,9 @@ export const Styles = styled.div`
                         }
 
                         @media(max-width: 480px) {
-                            display : none;
+                            width: 100%;
+                            height: auto;
+                            display: block; // ensure it's visible
                         }
                     }
                 }

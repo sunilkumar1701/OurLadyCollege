@@ -6,7 +6,7 @@ export const Styles = styled.div`
     /* Course Grid */
     .course-grid-area {
         padding: 70px 0;
-        ${'' /* ithula iruinthu na potathuu */}
+        ${"" /* ithula iruinthu na potathuu */}
         display: flex;
         justify-content: center; /* Centers the content horizontally */
         align-items: center; /* Centers the content vertically */
@@ -629,14 +629,20 @@ export const Styles = styled.div`
                                         }
 
                                         &:hover {
-                                            background-color: ${colors.green} !important;
+                                            background-color: ${
+                                              colors.green
+                                            } !important;
 
                                             &:before {
-                                                border-bottom-color: ${colors.green} !important;
+                                                border-bottom-color: ${
+                                                  colors.green
+                                                } !important;
                                             }
 
                                             &:after {
-                                                border-top-color: ${colors.green} !important;
+                                                border-top-color: ${
+                                                  colors.green
+                                                } !important;
                                             }
                                         }
                                     }
@@ -772,7 +778,9 @@ export const Styles = styled.div`
                                                     transition: all 0.2s ease;
 
                                                     &:hover {
-                                                        background-color: ${colors.green} !important;
+                                                        background-color: ${
+                                                          colors.green
+                                                        } !important;
                                                     }
                                                 }
 
@@ -833,163 +841,136 @@ export const Styles = styled.div`
 
                             .instructor-content {
                                 position: relative;
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
 
                                 .instructor-box {
                                     box-shadow: 0 0px 20px rgba(0, 0, 0, 0.08);
-                                    padding   : 25px;
+                                    padding: 25px;
                                     background: #ffffff;
-                                    border-radius : 5px;
-                                    position: absolute;
-                                    top     : 32px;
-                                    left    : -11%;
-                                    z-index : 1;
+                                    border-radius: 5px;
+                                    position: relative;
+                                    z-index: 1;
+                                    width: 100%;
+                                    max-width: 1050px;
+                                    min-height: 200px;
+                                    overflow: hidden;
+                                    top: 20px;
+                                    left: -75px;
 
-                                    .top-content {
-                                        margin-bottom: 20px;
-
-                                        .instructor-name {
-                                            h6 {
-                                                color      : ${colors.black2};
-                                                font-weight: 600;
-                                                text-transform: uppercase;
-                                                margin-bottom: 12px;
-
-                                                @media(max-width: 575px) {
-                                                    font-size : 14px;
-                                                }
-                                            }
-                                            p {
-                                                font-size  : 14px;
-                                                color      : ${colors.text3};
-                                                font-weight: 500;
-                                            }
-                                        }
-                                        .instructor-social {
-                                            margin-top: 25px;
-                                            ul.social {
-                                                li {
-                                                    a {
-                                                        text-align: center;
-                                                        position  : relative;
-
-                                                        &:before {
-                                                            content           : "";
-                                                            position          : absolute;
-                                                            border-width      : 8px 14px;
-                                                            border-style      : solid;
-                                                            border-top-color  : transparent;
-                                                            border-right-color: transparent;
-                                                            border-left-color : transparent;
-                                                            top               : -16px;
-                                                            left              : 0;
-                                                            z-index           : 1;
-                                                            transition : all 0.2s ease;
-                                                        }
-
-                                                        &:after {
-                                                            content            : "";
-                                                            position           : absolute;
-                                                            border-width       : 8px 14px;
-                                                            border-style       : solid;
-                                                            border-right-color : transparent;
-                                                            border-bottom-color: transparent;
-                                                            border-left-color  : transparent;
-                                                            bottom             : -16px;
-                                                            left               : 0;
-                                                            z-index            : 1;
-                                                            transition : all 0.2s ease;
-                                                        }
-
-                                                        i {
-                                                            font-size: 13px;
-                                                            color    : #ffffff;
-                                                            width    : 28px;
-                                                        }
-
-                                                        &:hover {
-                                                            background-color: ${colors.green} !important;
-
-                                                            &:before {
-                                                                border-bottom-color: ${colors.green} !important;
-                                                            }
-
-                                                            &:after {
-                                                                border-top-color: ${colors.green} !important;
-                                                            }
-                                                        }
-                                                    }
-
-                                                    &:nth-child(1) {
-                                                        a {
-                                                            background-color: #4267B2;
-
-                                                            &:before {
-                                                                border-bottom-color: #4267B2;
-                                                            }
-
-                                                            &:after {
-                                                                border-top-color: #4267B2;
-                                                            }
-                                                        }
-                                                    }
-
-                                                    &:nth-child(2) {
-                                                        a {
-                                                            background-color: #1DA1F2;
-
-                                                            &:before {
-                                                                border-bottom-color: #1DA1F2;
-                                                            }
-
-                                                            &:after {
-                                                                border-top-color: #1DA1F2;
-                                                            }
-                                                        }
-                                                    }
-
-                                                    &:nth-child(3) {
-                                                        a {
-                                                            background-color: #2867B2;
-
-                                                            &:before {
-                                                                border-bottom-color: #2867B2;
-                                                            }
-
-                                                            &:after {
-                                                                border-top-color: #2867B2;
-                                                            }
-                                                        }
-                                                    }
-
-                                                    &:nth-child(4) {
-                                                        a {
-                                                            background-color: #DD1343;
-
-                                                            &:before {
-                                                                border-bottom-color: #DD1343;
-                                                            }
-
-                                                            &:after {
-                                                                border-top-color: #DD1343;
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
+                                    @media (max-width: 1200px) {
+                                    max-width: 960px;
+                                    left: -60px;
                                     }
 
-                                    .instructor-desk {
-                                        p {
-                                            font-size : 15px;
-                                            color      : ${colors.text2};
-                                            line-height: 25px;
-
-                                            @media(max-width: 575px) {
-                                                font-size : 14px;
-                                            }
-                                        }
+                                    @media (max-width: 992px) {
+                                    max-width: 720px;
+                                    left: -40px;
+                                    padding: 20px;
                                     }
+
+                                    @media (max-width: 768px) {
+                                    max-width: 540px;
+                                    left: -20px;
+                                    padding: 18px;
+                                    }
+
+                                    @media (max-width: 576px) {
+                                    max-width: 100%;
+                                    left: 0;
+                                    padding: 15px;
+                                    top: 10px;
+                                    }
+
+        .top-content {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .instructor-name {
+                h6 {
+                    color: ${colors.black2};
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    margin-bottom: 12px;
+                    font-size: 16px;
+
+                    @media (max-width: 575px) {
+                        font-size: 14px;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                    color: ${colors.text3};
+                    font-weight: 500;
+                }
+            }
+
+            .instructor-social {
+                margin-top: 10px;
+
+                ul.social {
+                    padding: 0;
+                    display: flex;
+                    gap: 8px;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 28px;
+                            height: 28px;
+                            border-radius: 50%;
+                            color: #fff;
+                            font-size: 13px;
+                            transition: background-color 0.3s;
+
+                            &:hover {
+                                background-color: ${colors.green};
+                            }
+                        }
+
+                        &:nth-child(1) a {
+                            background-color: #4267B2;
+                        }
+
+                        &:nth-child(2) a {
+                            background-color: #1DA1F2;
+                        }
+
+                        &:nth-child(3) a {
+                            background-color: #2867B2;
+                        }
+
+                        &:nth-child(4) a {
+                            background-color: #DD1343;
+                        }
+                    }
+                }
+            }
+        }
+
+        .instructor-desk {
+            p {
+                font-size: 15px;
+                color: ${colors.text2};
+                line-height: 25px;
+
+                @media (max-width: 575px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
                                 }
                             }
 
@@ -1071,7 +1052,9 @@ export const Styles = styled.div`
                                                 font-size : 14px;
                                                 color: ${colors.green};
                                                 background : transparent;
-                                                border : 1px solid ${colors.border3};
+                                                border : 1px solid ${
+                                                  colors.border3
+                                                };
                                                 font-weight: 500;
                                                 border-radius: 25px;
                                                 padding: 4px 12px 3px;
@@ -1082,8 +1065,12 @@ export const Styles = styled.div`
                                                 }
                                                 &:hover {
                                                     color : #ffffff;
-                                                    background : ${colors.gr_bg};
-                                                    border-color : ${colors.green};
+                                                    background : ${
+                                                      colors.gr_bg
+                                                    };
+                                                    border-color : ${
+                                                      colors.green
+                                                    };
                                                 }
                                             }
                                         }

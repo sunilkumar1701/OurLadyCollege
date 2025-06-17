@@ -55,20 +55,7 @@ class CourseSlider extends Component {
 
                                             <div className="course-item" key={i}>
                                                 <Link to={process.env.PUBLIC_URL + data.courseLink}>
-                                                    <div className="course-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${data.imgUrl})` }}>
-                                                        <div className="author-img d-flex">
-                                                            <div className="img">
-                                                                <img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" />
-                                                            </div>
-                                                            <div className="title">
-                                                                <p>{data.authorName}</p>
-                                                                <span>{data.authorCourses}</span>
-                                                            </div>
-                                                        </div>
-                                                        <div className="course-price">
-                                                            <p>{data.price}</p>
-                                                        </div>
-                                                    </div>
+                                                    <div className="course-image" style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${data.imgUrl})` }}></div>
                                                 </Link>
                                                 <div className="course-content">
                                                     <h6 className="heading"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></h6>
@@ -77,17 +64,7 @@ class CourseSlider extends Component {
                                                         <div className="duration">
                                                             <p><i className="las la-clock"></i>120</p>
                                                         </div>
-                                                        <div className="rating">
-                                                            <ul className="list-unstyled list-inline">
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star-half-alt"></i>
-                                                                </li>
-                                                                <li className="list-inline-item">(4.5)</li>
-                                                            </ul>
-                                                        </div>
+                                                        
                                                         <div className="student">
                                                             <p><i className="las la-chair"></i>60</p>
                                                         </div>
